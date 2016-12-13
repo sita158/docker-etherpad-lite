@@ -3,7 +3,7 @@
 EP_TITLE=${EP_TITLE:-Etherpad}
 EP_SESSION_KEY=${EP_SESSION_KEY:-`node -p "require('crypto').randomBytes(32).toString('hex')"`}
 #quick test
-export EP_TITLE="SRI-CHOW-ETHERPAD"
+export EP_TITLE="SITA-ETHERPAD"
 
 cat <<END_OF_TEMPLATE
 /*
